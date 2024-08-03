@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --font-family: "Roboto", sans-serif;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: grey; */
+}
+
+.ff {
+    font-family: var(--font-family);
+}
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.py-18 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.py-8 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-16 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.relative {
+    position: relative;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.max-auto {
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-white {
+    color: white;
+}
+
+.absolute-position {
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* elements styling*/
+
+nav {
+    display: flex;
+}
+.nav-content {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-div:hover {
+    border-bottom: 2px solid blue;  
+}
+.right-logo a {
+    color: white;
+    padding: 15px;
+}
+
+.bottom-border {
+    border-bottom: 1px solid white; 
+    width: 87%; 
+    position: absolute; 
+    z-index: 1;
+    margin-left: 90px;
+}
+
+.hero-p {
+    color: #ffffffcf;
+    padding: 20px;
+    padding-left: 88px;
+}
+
+.span-pleasure {
+    color: white; 
+    font-weight: bold;
+}
+
+.hero-video {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.hero-left-div {
+    /* background-color: gray; */
+    height: 320px;
+    width: 230px;
+    margin-top: 200px;
+    margin-left: 89px;
+    padding: 10px;
+}
+
+.hero-left-p {
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 7px;
+}
+
+.hero-left-span {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 1.5rem;
+
+}
+.king-5 p{
+    color: white;
+    height: 220px;
+    width: 170px;
+    /* background-color: rebeccapurple; */
+    margin-top: -32px;
+    margin-left: -10px;
+    font-size: 220px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-button {
+    background-color: #1c69d4;
+    color: white;
+    font-size: 15px;
+    height: 15%;
+    width: 76%;
+    margin-top: 10px;
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: blue;
+}
+.call-logo {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    padding: 15px;
+    margin-left: 92.5%;
+    margin-top: 430px;
+    position: fixed;
+    border: 1px solid black;
+    box-shadow: 2px px black;
+}
+
+
+/* 2nd section  */
+
+.below-horo-img{ 
+    /* background-image: url("./assets/below_hero.webp"); */
+    margin-top: 94vh;
+    width: 100%;
+    position: absolute;
+
+}
+
+.below-hero-left {
+    /* background-color: gray; */
+    height: 27.5%;
+    width: 28%;
+    margin-top: 133.5vh;
+    margin-left: 110px;
+    line-height: 48px;
+}
+
+.below-hero-button {
+    background-color: #1c69d4;
+    color: white;
+    height: 27%;
+    width: 46%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.below-hero-button:hover {
+    background-color: blue;
+}
+
+/* car section  */
+.car-container {
+    /* background-color: gray; */
+    height: 65vh;
+    width: 100vw;
+    margin-top: 207vh;
+    position: absolute;
+}
+
+.car-section {
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 21%;
+    line-height: 50px;
+    padding-top: 45px;
+
+}
+
+.all-car-section {
+    margin-top: 2vh;
+    position: absolute;
+
+}
+.car-section1 {
+    /* background-color: blue; */
+    height: 40vh;
+    width: 30vw;
+    margin-top: -20px;
+    margin-left: 5vw;
+
+}
+
+.car-section2 {
+    /* background-color: green; */
+    height: 25vh;
+    width: 30vw;
+    margin-top: -20px;
+
+
+}
+
+.car-section3 {
+    /* background-color: yellow; */
+    height: 25vh;
+    width: 30vw;
+    margin-top: -20px;
+
+
+
+}
+
+.car-section-p {
+    text-align: center;
+    font-size: 23px;
+    line-height: 35px;
+    color: #262626;
+}
+.car-section-buttons {
+    text-align: center;
+    padding: 10px;
+    color: rgb(38, 38, 38);
+    font-size: 15px;
+    border-radius: 3px;
+    line-height: 24px;
+    height: 50px;
+    font-weight: bold;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 145px;
+    background: none;
+}
+
+.car-section-buttons:hover {
+    border: 3px solid black;
+}
+.two-bmw > img {
+    margin-top: 142%;
+    height: 70vh;
+    width: 100vw;
+}
+
+.two-bmw-text > p {
+    /* background-color: red; */
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 115px;
+    font-size: 2.1rem;
+    color: white;
+    word-spacing: 2px;
+}
+
+.two-bmw-text > button {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 120px;
+    word-spacing: 2px;
+    font-size: 15px;
+    background: none;
+    color: #f2f2f2;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 8%;
+    width: 19%;
+    font-weight: bold;
+}
+
+.two-bmw-text > button:hover {
+    border: 2px solid white;
+}
+
+/* bottom section  */
+.bottom-section {
+    /* background-color: yellowgreen; */
+    height: 120vh;
+    width: 100vw;
+}
+
+.bottom-section-top {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+}
+
+.bottom-section-top > .bottom-section-img > img {
+    height: 50vh;
+    width: 43vw;
+    padding-left: 96px;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.bottom-section-text > #text1 {
+    font-size: 15px;
+    font-weight: var(--font-family);
+    line-height: 24px;
+    color: #262626;
+    padding: 10px;
+    padding-top: 90px;
+    padding-left: 22px;
+
+}
+
+.bottom-section-text > #text2 {
+    font-size: 35px;
+    background-color: #000000, opacity 0%;
+    font-weight: var(--font-family);
+    font-weight: lighter;
+    color: #262626;
+    padding: 10px;
+    padding-left: 22px;
+}
+
+.bottom-section-text > #text3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: var(--font-family);
+    color: #262626;
+    padding-left: 25px;
+    padding-top: 8px;
+}
+
+.bottom-section-text button {
+    font-size: 15px;
+    font-family: var(--font-family);
+    line-height: 24px;
+    text-align: center;
+    color: #262626;
+    background: none;
+    margin-left: 23px;
+    margin-top: 25px;
+    box-sizing: rgb(38,38,38);
+    border-radius: 3px;
+    height: 12%;
+    width: 30%;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+.bottom-section-text button:hover {
+    border: 2px solid black;
+}
+
+.bottom-section-below {
+    /* background-color: orange; */
+    display: flex;
+    height: 54vh;
+    width: 100vw;
+    border-bottom: .5px solid grey;
+}
+
+.bottom-section-below > .bottom-section-below-img > img {
+    height: 50vh;
+    width: 43vw;
+    padding-left: 96px;
+    padding-bottom: 10px;
+}
+
+.bottom-section-below-text > #below-text1 {
+    font-size: 15px;
+    font-weight: var(--font-family);
+    line-height: 24px;
+    color: #262626;
+    padding: 10px;
+    padding-top: 70px;
+    padding-left: 22px;
+}
+
+.bottom-section-below-text > #below-text2 {
+    font-size: 35px;
+    background-color: #000000, opacity 0%;
+    font-weight: var(--font-family);
+    font-weight: lighter;
+    color: #262626;
+    padding: 10px;
+    padding-left: 22px;
+}
+
+.bottom-section-below-text > #below-text3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: var(--font-family);
+    color: #262626;
+    padding-left: 25px;
+    padding-top: 8px;
+}
+
+.bottom-section-below-text button {
+    font-size: 15px;
+    font-family: var(--font-family);
+    line-height: 24px;
+    text-align: center;
+    color: #262626;
+    background: none;
+    margin-left: 23px;
+    margin-top: 25px;
+    box-sizing: rgb(38,38,38);
+    border-radius: 3px;
+    height: 13%;
+    width: 33%;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+.bottom-section-below-text button:hover {
+    border: 2px solid black;
+}
+.model-info {
+    /* background-color: rebeccapurple; */
+    height: 7vh;
+    margin-top: -15px;
+    padding-top: 10px;
+    padding-left: 96px;
+}
+
+.model-info span > a{
+    font-weight: bold;
+    padding-left: 35px;
+    text-decoration: none;
+    color: #262626;
+}
+
+/* footer  */
+
+footer {
+    height: 50vh;
+    width: 100vw;
+}
+.footer {
+    background-color:rgba(150, 150, 150, 0.065);
+    display: flex;
+    padding-top: 30px;
+    justify-content: left;
+    padding-left: 55px;
+    padding-top: 50px;
+    height: 50vh;
+    line-height: 2.3em;
+}
+
+.li-top-foot {
+    color: #4d4d4d;
+}
+.footer1 a {
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: start;
+    color: #262626;
+    font-weight: bold;
+}
+
+.footer2 a {
+    padding-left: 130px;
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: start;
+    color: #262626;
+    font-weight: bold;
+}
+
+.footer3 a {
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: start;
+    color: #262626;
+    font-weight: bold;
+}
+
+.footer4 a {
+    padding-left: 120px;
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: start;
+    color: #262626;
+    font-weight: bold;
+}
+
+.social-links {
+    /* background-color: red;    */
+    height: 5vh;
+    width: 100vw;
+    margin-top: -130px;
+    padding-left: 80px;
+}
+
+.social-links a > img {
+    padding-top: 40px;
+    height: 38px;
+    width: 38px;
+}
